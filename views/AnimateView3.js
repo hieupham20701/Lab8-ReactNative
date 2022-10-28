@@ -6,7 +6,7 @@ export default function AnimateView3() {
     const bayQua = () => {
         Animated.timing(fadeAnim, {
           toValue: 350,
-          duration: 5000,
+          duration: 3500,
           useNativeDriver:false
         }).start();
       };
@@ -18,7 +18,7 @@ export default function AnimateView3() {
       const bayLai = () => {
         Animated.timing(fadeAnim, {
           toValue: 0,
-          duration: 5000,
+          duration: 3500,
           useNativeDriver:false
         }).start();
       };
